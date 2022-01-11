@@ -6,8 +6,8 @@ function linkConfig(){
         const MODULE_BASE_DIR = `${process.cwd()}`
 
         let files = {}
-        files[`${MIRROR_BASE_DIR}/config/config.js`] = `${MODULE_BASE_DIR}/config.js`
-        files[`${MIRROR_BASE_DIR}/css/custom.css`] = `${MODULE_BASE_DIR}/custom.css`
+        files[`${MIRROR_BASE_DIR}/config/config.js`] = `${MODULE_BASE_DIR}/config/config.js`
+        files[`${MIRROR_BASE_DIR}/css/custom.css`] = `${MODULE_BASE_DIR}/config/custom.css`
 
         for (const [symlink, target] of Object.entries(files)) {
                 console.log("config " + target)

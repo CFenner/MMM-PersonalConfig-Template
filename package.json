@@ -1,0 +1,17 @@
+{
+  "name": "mmm-config",
+  "version": "1.0.0",
+  "scripts": {
+    "link": "node js/link.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CFenner/MMM-Config.git"
+  },
+  "author": "CFenner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CFenner/MMM-Config/issues"
+  },
+  "homepage": "https://github.com/CFenner/MMM-Config#readme"
+}

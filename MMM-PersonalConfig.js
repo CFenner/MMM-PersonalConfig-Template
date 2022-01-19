@@ -1,10 +1,10 @@
 /* Magic Mirror
- * Module: MagicMirror-Config-Module
+ * Module: MagicMirror-PersonalConfig-Module
  *
  * By Christopher Fenner https://github.com/CFenner
  * MIT Licensed.
  */
-Module.register('MMM-Config', {
+Module.register('MMM-PersonalConfig', {
   // Default module config.
   defaults: {},
   // Override dom template.

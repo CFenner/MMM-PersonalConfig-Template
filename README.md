@@ -1,6 +1,6 @@
-![GitHub Repo stars](https://img.shields.io/github/stars/CFenner/MMM-Config-Template?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/CFenner/MMM-PersonalConfig-Template?style=social)
 
-# MMM-Config
+# MMM-PersonalConfig
 
 This is a module for the [MagicMirror²](https://magicmirror.builders/) to persist it's configuration in a GitHub repository.
 
@@ -23,11 +23,11 @@ cd ~/MagicMirror/modules
 Clone this repository:
 
 ```shell
-git clone <url-to-your-template-copy> MMM-Config
+git clone <url-to-your-template-copy> MMM-PersonalConfig
 ```
 
-Navigate to the new MMM-Config folder and init the module
+Navigate to the new MMM-PersonalConfig folder and init the module
 
 ```shell
-cd MMM-Config/ && npm run copy && npm run link
+cd MMM-PersonalConfig/ && npm run copy && npm run link
 ```

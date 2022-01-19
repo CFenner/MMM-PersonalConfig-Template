@@ -26,8 +26,8 @@ Clone this repository:
 git clone <url-to-your-template-copy> MMM-PersonalConfig
 ```
 
-Navigate to the new MMM-PersonalConfig folder and init the module
+Navigate to the new MMM-PersonalConfig folder and init the module. Make sure you moved your config files over before.
 
 ```shell
-cd MMM-PersonalConfig/ && npm run copy && npm run link
+cd MMM-PersonalConfig/ && npm run link
 ```

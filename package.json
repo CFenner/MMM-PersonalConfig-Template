@@ -1,17 +1,17 @@
 {
-  "name": "mmm-config",
+  "name": "mmm-personalconfig",
   "version": "1.0.0",
   "scripts": {
     "link": "node js/link.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CFenner/MMM-Config.git"
+    "url": "git+https://github.com/CFenner/MMM-PersonalConfig.git"
   },
   "author": "CFenner",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CFenner/MMM-Config/issues"
+    "url": "https://github.com/CFenner/MMM-PersonalConfig/issues"
   },
-  "homepage": "https://github.com/CFenner/MMM-Config#readme"
+  "homepage": "https://github.com/CFenner/MMM-PersonalConfig#readme"
 }

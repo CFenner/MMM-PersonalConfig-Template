@@ -27,13 +27,13 @@ env:
   HEAD_BRANCH: chore/sync-from-template
   GIT_AUTHOR_NAME: ${{ github.repository_owner }}
   GIT_AUTHOR_EMAIL: ${{ github.repository_owner }}@users.noreply.github.com
-  REPO_TEMPLATE: CFenner/MMM-Config-Template
+  REPO_TEMPLATE: CFenner/MMM-PersonalConfig-Template
   THIS_REPO: ${{ github.repository }}
 
 jobs:
   sync-from-template:
     # Do not run on the template repository itself
-    if: github.repository != 'CFenner/MMM-Config-Template'
+    if: github.repository != 'CFenner/MMM-PersonalConfig-Template'
     runs-on: ubuntu-latest
     continue-on-error: true
 

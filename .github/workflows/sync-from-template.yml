@@ -40,7 +40,7 @@ jobs:
     steps:
       # Clone the template repository
       - name: Check out template repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           repository: ${{ env.REPO_TEMPLATE }}
           token: ${{ github.token }}
@@ -48,7 +48,7 @@ jobs:
 
       # Clone the target repository. Check out a branch
       - name: Check out ${{ github.repository }}
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           repository: ${{ github.repository }}
           token: ${{ github.token }}
